@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const handler = async (event, context) => {
-    const listId = '<Your MailChimp List ID>';
-    const apiKey = '<Your MailChimp API Key>';
+    const listId = 'a0150c1638';
+    const apiKey = 'c9b0f9b87f861fafc0ddc531e254264b';
     const body = JSON.parse(event.body);
     const { email_address } = body;
     if (!email_address) {
